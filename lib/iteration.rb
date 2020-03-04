@@ -18,4 +18,3 @@ def join_ingredients(src)
   end
   new_array
 end
-
