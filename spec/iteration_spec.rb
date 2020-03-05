@@ -9,7 +9,7 @@ describe "Write a method called \"join_ingredients\"." do
   describe "It is given an Array of 2-element Arrays" do
     it "returns an Array of Strings of the form \"I love element1 and element2 on my pizza\"" do
       expect(join_ingredients(array_1)).to eq([
-        "I love pepperoni and sausage on my pizza",
+        "I love pepperoni, sausage, and anchovies on my pizza",
         "I love green olives and green peppers on my pizza",
         "I love onions and pineapple on my pizza"
       ])
